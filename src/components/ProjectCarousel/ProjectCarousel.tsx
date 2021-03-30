@@ -74,7 +74,7 @@ const ProjectList = (): JSX.Element => {
     return (
         <div id="projectList">
             <div className="half-circle-left" onClick={() => changePage(-1)}><h1 className="arrow" style={currentPage <= 0 ? {color: 'gray'} : {color: 'white'}}>{"<"}</h1></div>
-            <div className="half-circle-right" onClick={() => changePage(1)}><h1 className="arrow" style={currentPage >= Projects.length-3 ? {color: 'gray'} : {color: 'white'}}>{">"}</h1></div>
+            <div className="half-circle-right" onClick={() => changePage(1)}><h1 className="arrow" style={currentPage >= Projects.length-gridSize ? {color: 'gray'} : {color: 'white'}}>{">"}</h1></div>
             <div id="list">
                 {projectGrid.project1}
                 {projectGrid?.project2}
