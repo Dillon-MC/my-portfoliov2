@@ -30,7 +30,7 @@ const ProjectItem = ({ name, icon, description, liveLink, repoLink }: ProjectIte
             <h3>{name}</h3>
             <img src={icon} alt="icon"/>
             <div className="buttonContainer" onClick={endBubbling}>
-                {expanded ? <button className="exitButton" onClick={shrinkProjectElement}>x</button> : null}
+                {expanded ? <button className="exitButton" onClick={shrinkProjectElement}>&times;</button> : null}
                 <a href={liveLink} target="blank"><button className="projectButton" onClick={endBubbling}>Try it out!</button></a>
                 <a href={repoLink} target="blank"><button className="projectButton" onClick={endBubbling}>Repo</button></a>
             </div>
