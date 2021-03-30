@@ -1,4 +1,3 @@
-import ProjectItem from '../ProjectItem/ProjectItem';
 import { useEffect, useReducer, useState } from 'react';
 import { Projects } from './Projects';
 import { selectProjectsReducer } from '../../Reducers/selectProjectsReducer';

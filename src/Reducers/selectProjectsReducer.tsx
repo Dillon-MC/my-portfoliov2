@@ -1,4 +1,3 @@
-import { act } from '@testing-library/react';
 import { Projects } from '../components/ProjectCarousel/Projects';
 import ProjectItem from '../components/ProjectItem/ProjectItem';
 

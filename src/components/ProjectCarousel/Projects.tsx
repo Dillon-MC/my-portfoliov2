@@ -38,7 +38,7 @@ export const Projects:Array<ProjectItemProps> = [
     {
         name: 'Background generator',
         icon: backgroundGeneratorIcon,
-        description: 'Create gradient backgrounds,\n' + 'or generate a random one for your website.',
+        description: 'Create gradient backgrounds,\n ' + 'or generate a random one for your website.',
         liveLink: 'https://dillon-mc.github.io/background-generator.github.io/',
         repoLink: 'https://github.com/Dillon-MC/background-generator.github.io',
     },
