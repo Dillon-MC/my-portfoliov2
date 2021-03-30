@@ -1,5 +1,6 @@
 {
   "name": "myportfolio-v2",
+  "homepage": "http://dillon-mc.github.io/my-portfoliov2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^17.0.3"
+    "@types/react": "^17.0.3",
+    "gh-pages": "^3.1.0"
   }
 }
