@@ -20,7 +20,7 @@ function App() {
         </p>
       </div>
       <ProjectCarousel />
-      <footer>Projects marked with a "*" are projects I contributed to.</footer>
+      <footer></footer>
     </div>
   );
 }
