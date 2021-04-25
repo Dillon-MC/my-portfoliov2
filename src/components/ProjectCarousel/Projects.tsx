@@ -2,6 +2,7 @@ import smartbrainIcon from '../../images/smartbrain.jpg';
 import robofriendsIcon from '../../images/robofriends.jpg';
 import backgroundGeneratorIcon from '../../images/backgroundGenerator.jpg';
 import pokefinderIcon from '../../images/pokefinder.jpg';
+import blockchaindemoIcon from '../../images/blockchaindemo.jpg';
 
 interface ProjectItemProps {
     name: string,
@@ -22,11 +23,11 @@ export const Projects:Array<ProjectItemProps> = [
 
     },
     {
-        name: 'Robofriends',
-        icon: robofriendsIcon,
-        description: 'Robofriends uses an API to generate random robots to be your friend.',
-        liveLink: 'https://dillon-mc.github.io/robofriends/index.html',
-        repoLink: 'https://github.com/Dillon-MC/robofriends',
+        name: 'Blockchain-Demo',
+        icon: blockchaindemoIcon,
+        description: 'Fully functioning demo of a blockchain.',
+        liveLink: 'https://dillon-mc.github.io/blockchain-demo/',
+        repoLink: 'https://github.com/Dillon-MC/blockchain-demo',
     },
     {
         name: 'Pokéfinder',
@@ -34,6 +35,13 @@ export const Projects:Array<ProjectItemProps> = [
         description: 'Find stats on any pokemon by just typing its name! Uses the pokeapi.',
         liveLink: 'https://dillon-mc.github.io/Pokefinder/',
         repoLink: 'https://github.com/Dillon-MC/Pokefinder',
+    },
+    {
+        name: 'Robofriends',
+        icon: robofriendsIcon,
+        description: 'Robofriends uses an API to generate random robots to be your friend.',
+        liveLink: 'https://dillon-mc.github.io/robofriends/index.html',
+        repoLink: 'https://github.com/Dillon-MC/robofriends',
     },
     {
         name: 'Background generator',
