@@ -10,9 +10,9 @@ function App() {
         <p>
           Hi my name is Dillon! I'm a freelance full-stack web developer and have built websites using the latest and greatest tools and libraries, such as <br/>
           <br/>
-          -React -NextJS -HTML5<br/>
+          -Reactjs -NextJS -HTML5 -CSS<br/>
           -Javascript -Typescript<br/>
-          -Node -Express -Docker -AWS<br/>
+          -Nodejs -Express -Docker -AWS<br/>
           -MongoDB -Redis -PostgreSQL<br/>
           <br/>
           and more. I am efficient, hard working and always ready to learn.<br/>
