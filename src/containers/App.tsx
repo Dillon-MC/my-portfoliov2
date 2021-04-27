@@ -14,6 +14,7 @@ function App() {
           -Javascript -Typescript<br/>
           -Nodejs -Express -Docker -AWS<br/>
           -MongoDB -Redis -PostgreSQL<br/>
+          -Continuous Integration -Continuous Deployment<br/>
           <br/>
           and more. I am efficient, hard working and always ready to learn.<br/>
           If you are interested in hiring me, please contact me via one of the options above.<br/>
