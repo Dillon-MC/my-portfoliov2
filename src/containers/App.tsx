@@ -20,6 +20,10 @@ function App() {
           If you are interested in hiring me, please contact me via one of the options above.<br/>
         </p>
       </div>
+      <div id="linkContainer">
+        <a className="certificateLink" href="https://ik.imagekit.io/zkncx93xu/UdemyCertificate_public__hknniNTo2s.jpg" target="_blank">Certificate #1</a>
+        <a className="certificateLink" href="https://ik.imagekit.io/zkncx93xu/UdemyCertificate2_public__L3k0RbpbT.jpg" target="_blank">Certificate #2</a>
+      </div>
       <ProjectCarousel />
       <footer></footer>
     </div>

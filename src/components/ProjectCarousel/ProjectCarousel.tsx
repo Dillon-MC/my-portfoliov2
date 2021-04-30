@@ -37,7 +37,7 @@ const ProjectList = (): JSX.Element => {
         adjustProjectGrid();
     },[]);
 
-    //Dispatch the currentPage it updates
+    //Dispatch the currentPage so it updates
     useEffect(() => {
         dispatch({
             type: gridSize === 3 ? "PAGE_INDEX_CHANGE3" : gridSize === 2 ? "PAGE_INDEX_CHANGE2" :  "PAGE_INDEX_CHANGE1",

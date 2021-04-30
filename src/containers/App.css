@@ -8,6 +8,25 @@
   margin-bottom: 16.4vh;
 }
 
+#linkContainer {
+  position: fixed;
+  display: flex;
+  width: 220px;
+  height: 60px;
+  justify-content: space-around;
+  transform: translate(160px, -150px);
+}
+
+.certificateLink {
+  font-size: large;
+  margin-left: 10px;
+  color: rgb(58, 221, 132);
+}
+
+.certificateLink:hover {
+  color: rgb(58, 175, 221);
+}
+
 footer {
   height: 40px;
   background-color: slategray;
