@@ -1,6 +1,7 @@
 import './App.css';
 import Header from '../components/Header/Header';
 import ProjectCarousel from '../components/ProjectCarousel/ProjectCarousel';
+import {useState, useEffect} from 'react';
 
 function App() {
   return (
