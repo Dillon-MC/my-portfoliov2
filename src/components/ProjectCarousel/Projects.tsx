@@ -12,7 +12,7 @@ interface ProjectItemProps {
     repoLink: string
 }
 
-export const Projects:Array<ProjectItemProps> = [
+export const Projects: Array<ProjectItemProps> = [
     {
         name: 'Smart-Brain',
         icon: smartbrainIcon,

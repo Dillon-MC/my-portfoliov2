@@ -3,31 +3,32 @@ import { Projects } from './Projects';
 import { selectProjectsReducer } from '../../Reducers/selectProjectsReducer';
 import './ProjectCarousel.css';
 
-interface ProjectListProps {
+interface ProjectGridProps {
     project1?: JSX.Element,
     project2?: JSX.Element,
     project3?: JSX.Element
 }
 
-const ProjectList = (): JSX.Element => {
+const ProjectCarousel = ({projectGridSize = 1}: {projectGridSize: number}): JSX.Element => {
 
     const [currentPage, setCurrentPage] = useState<number>(0);
     const [selectedProjects, dispatch] = useReducer(selectProjectsReducer, {projects: {}});
-    const [gridSize, setGridSize] = useState<number>(1);
+    const [gridSize, setGridSize] = useState<number>(projectGridSize);
 
-    const [projectGrid, setProjectGrid] = useState<ProjectListProps>({});
+    const [projectGrid, setProjectGrid] = useState<ProjectGridProps>({});
 
     const adjustProjectGrid = (): void => {
-        if (visualViewport.width < 1140) {
-            setGridSize(1);
-        } else if (visualViewport.width < 1580 && visualViewport.width > 1140) {
-            //Reset the curret page, otherwise when the grid size increases, 
-            //the project components 2 and/or 3 will have an index that is larger than the Projects array length
-            setCurrentPage(0);
-            setGridSize(2);
-        } else {
-            setCurrentPage(0);
-            setGridSize(3);
+        if(window.visualViewport) {
+            if (visualViewport.width < 1140) {
+                setGridSize(1);
+            } else if (visualViewport.width < 1580 && visualViewport.width > 1140) {
+                //Reset the curret page, otherwise when the grid size increases, 
+                //the project components 2 and/or 3 will have an index that is larger than the Projects array length
+                setGridSize(2);
+            } else {
+                setCurrentPage(0);
+                setGridSize(3);
+            }
         }
     }
 
@@ -73,8 +74,16 @@ const ProjectList = (): JSX.Element => {
 
     return (
         <div id="projectList">
-            <div className="half-circle-left" onClick={() => changePage(-1)}><h1 className="arrow" style={currentPage <= 0 ? {color: 'gray'} : {color: 'white'}}>{"<"}</h1></div>
-            <div className="half-circle-right" onClick={() => changePage(1)}><h1 className="arrow" style={currentPage >= Projects.length-gridSize ? {color: 'gray'} : {color: 'white'}}>{">"}</h1></div>
+            <div id="pageDownBtn" className="half-circle-left" onClick={() => changePage(-1)}>
+                <h1 className="arrow" style={currentPage <= 0 ? {color: 'gray'} : {color: 'white'}}>
+                    {"<"}
+                </h1>
+            </div>
+            <div id="pageUpBtn" className="half-circle-right" onClick={() => changePage(1)}>
+                <h1 className="arrow" style={currentPage >= Projects.length-gridSize ? {color: 'gray'} : {color: 'white'}}>
+                    {">"}
+                </h1>
+            </div>
             <div id="list">
                 {projectGrid.project1}
                 {projectGrid?.project2}
@@ -84,4 +93,4 @@ const ProjectList = (): JSX.Element => {
     );
 }
 
-export default ProjectList;
+export default ProjectCarousel;

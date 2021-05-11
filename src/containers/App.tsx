@@ -25,7 +25,7 @@ function App() {
         <a className="certificateLink" href="https://ik.imagekit.io/zkncx93xu/UdemyCertificate_public__hknniNTo2s.jpg" target="_blank">Certificate #1</a>
         <a className="certificateLink" href="https://ik.imagekit.io/zkncx93xu/UdemyCertificate2_public__L3k0RbpbT.jpg" target="_blank">Certificate #2</a>
       </div>
-      <ProjectCarousel />
+      <ProjectCarousel projectGridSize={1}/>
       <footer></footer>
     </div>
   );
