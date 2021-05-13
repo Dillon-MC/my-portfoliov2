@@ -13,7 +13,7 @@ function App() {
           <br/>
           -Reactjs -NextJS -HTML5 -CSS<br/>
           -Javascript -Typescript<br/>
-          -Nodejs -Express -Docker -AWS<br/>
+          -Nodejs -Express -Docker -AWS -Load Balancing<br/>
           -MongoDB -Redis -PostgreSQL<br/>
           -Continuous Integration -Continuous Deployment<br/>
           <br/>
