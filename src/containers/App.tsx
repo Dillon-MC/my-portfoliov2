@@ -16,7 +16,7 @@ function App() {
           -MongoDB -Redis -PostgreSQL<br/>
           -Continuous Integration -Continuous Deployment<br/>
           <br/>
-          and more. I am efficient, hard working and always ready to learn.<br/>
+          and more.<br/>
           If you are interested in hiring me, please contact me via one of the options above.<br/>
         </p>
       </div>
