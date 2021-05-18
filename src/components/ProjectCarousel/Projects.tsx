@@ -3,6 +3,7 @@ import robofriendsIcon from '../../images/robofriends.jpg';
 import backgroundGeneratorIcon from '../../images/backgroundGenerator.jpg';
 import pokefinderIcon from '../../images/pokefinder.jpg';
 import blockchaindemoIcon from '../../images/blockchaindemo.jpg';
+import staticlandingpageIcon from '../../images/staticlandingpage.jpg';
 
 interface ProjectItemProps {
     name: string,
@@ -35,6 +36,13 @@ export const Projects: Array<ProjectItemProps> = [
         description: 'Find stats on any pokemon by just typing its name! Uses the pokeapi.',
         liveLink: 'https://dillon-mc.github.io/Pokefinder/',
         repoLink: 'https://github.com/Dillon-MC/Pokefinder',
+    },
+    {
+        name: 'Static Landing Page',
+        icon: staticlandingpageIcon,
+        description: 'A static Landing Page built with NextJS to achieve great SEO and fast load speeds.',
+        liveLink: 'https://static-landing-page-indol.vercel.app/',
+        repoLink: 'https://github.com/Dillon-MC/static-landing-page',
     },
     {
         name: 'Robofriends',
