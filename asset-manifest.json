@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfoliov2/static/css/main.4483c9c6.chunk.css",
-    "main.js": "/my-portfoliov2/static/js/main.325e99cf.chunk.js",
-    "main.js.map": "/my-portfoliov2/static/js/main.325e99cf.chunk.js.map",
-    "runtime-main.js": "/my-portfoliov2/static/js/runtime-main.74a80de1.js",
-    "runtime-main.js.map": "/my-portfoliov2/static/js/runtime-main.74a80de1.js.map",
-    "static/js/2.dbd65c62.chunk.js": "/my-portfoliov2/static/js/2.dbd65c62.chunk.js",
-    "static/js/2.dbd65c62.chunk.js.map": "/my-portfoliov2/static/js/2.dbd65c62.chunk.js.map",
-    "static/js/3.222d6e82.chunk.js": "/my-portfoliov2/static/js/3.222d6e82.chunk.js",
-    "static/js/3.222d6e82.chunk.js.map": "/my-portfoliov2/static/js/3.222d6e82.chunk.js.map",
+    "main.css": "/my-portfoliov2/static/css/main.85d46214.chunk.css",
+    "main.js": "/my-portfoliov2/static/js/main.d9dd668e.chunk.js",
+    "main.js.map": "/my-portfoliov2/static/js/main.d9dd668e.chunk.js.map",
+    "runtime-main.js": "/my-portfoliov2/static/js/runtime-main.7eb196a7.js",
+    "runtime-main.js.map": "/my-portfoliov2/static/js/runtime-main.7eb196a7.js.map",
+    "static/js/2.a8c1449c.chunk.js": "/my-portfoliov2/static/js/2.a8c1449c.chunk.js",
+    "static/js/2.a8c1449c.chunk.js.map": "/my-portfoliov2/static/js/2.a8c1449c.chunk.js.map",
+    "static/js/3.4e960a74.chunk.js": "/my-portfoliov2/static/js/3.4e960a74.chunk.js",
+    "static/js/3.4e960a74.chunk.js.map": "/my-portfoliov2/static/js/3.4e960a74.chunk.js.map",
     "index.html": "/my-portfoliov2/index.html",
-    "static/css/main.4483c9c6.chunk.css.map": "/my-portfoliov2/static/css/main.4483c9c6.chunk.css.map",
-    "static/js/2.dbd65c62.chunk.js.LICENSE.txt": "/my-portfoliov2/static/js/2.dbd65c62.chunk.js.LICENSE.txt",
+    "static/css/main.85d46214.chunk.css.map": "/my-portfoliov2/static/css/main.85d46214.chunk.css.map",
+    "static/js/2.a8c1449c.chunk.js.LICENSE.txt": "/my-portfoliov2/static/js/2.a8c1449c.chunk.js.LICENSE.txt",
+    "static/media/blockchaindemo.8b4b8495.jpg": "/my-portfoliov2/static/media/blockchaindemo.8b4b8495.jpg",
     "static/media/robofriends.db0bde56.jpg": "/my-portfoliov2/static/media/robofriends.db0bde56.jpg",
-    "static/media/smartbrain.d269f023.jpg": "/my-portfoliov2/static/media/smartbrain.d269f023.jpg"
+    "static/media/smartbrain.d269f023.jpg": "/my-portfoliov2/static/media/smartbrain.d269f023.jpg",
+    "static/media/staticlandingpage.72b472a7.jpg": "/my-portfoliov2/static/media/staticlandingpage.72b472a7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.74a80de1.js",
-    "static/js/2.dbd65c62.chunk.js",
-    "static/css/main.4483c9c6.chunk.css",
-    "static/js/main.325e99cf.chunk.js"
+    "static/js/runtime-main.7eb196a7.js",
+    "static/js/2.a8c1449c.chunk.js",
+    "static/css/main.85d46214.chunk.css",
+    "static/js/main.d9dd668e.chunk.js"
   ]
 }
